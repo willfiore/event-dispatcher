@@ -1,0 +1,22 @@
+{
+  "name": "@willfiore/event-dispatcher",
+  "author": "Will Fiore",
+  "version": "1.0.0",
+  "description": "Fully typed event dispatcher.",
+  "keywords": [],
+  "license": "ISC",
+  "repository": "https://github.com/willfiore/event-dispatcher",
+  "main": "dist/willfiore-event-dispatcher.cjs.js",
+  "module": "dist/willfiore-event-dispatcher.esm.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@babel/preset-typescript": "^7.18.6",
+    "@preconstruct/cli": "^2.3.0",
+    "typescript": "^4.9.5"
+  }
+}
